@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chantel Mnyoni | Data Analyst Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f8fa;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+            min-height: 100vh;
+        }
+
+        /* LEFT SIDE */
+        .sidebar {
+            width: 30%;
+            background: #ffffff;
+            padding: 50px 35px;
+            border-right: 1px solid #e5e7eb;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+        }
+
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #e9ecef;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 14px;
+        }
+
+        .sidebar h1 {
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        .role {
+            font-size: 17px;
+            color: #4f6f8f;
+            margin-bottom: 25px;
+        }
+
+        .sidebar p {
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .skills {
+            margin-top: 25px;
+        }
+
+        .skills h3 {
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #eef2f5;
+            padding: 6px 10px;
+            margin: 4px 3px 4px 0;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+
+        .contact a {
+            display: block;
+            margin-top: 10px;
+            color: #4f6f8f;
+            text-decoration: none;
+        }
+
+        /* MAIN CONTENT */
+        .content {
+            width: 70%;
+            padding: 60px 55px;
+        }
+
+        .content h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .intro {
+            font-size: 17px;
+            color: #555;
+            margin-bottom: 45px;
+            max-width: 750px;
+        }
+
+        .project {
+            background: #ffffff;
+            padding: 28px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .project h3 {
+            font-size: 21px;
+            margin-bottom: 8px;
+        }
+
+        .project .tools {
+            color: #4f6f8f;
+            font-size: 14px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .project p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .project ul {
+            margin-left: 20px;
+            color: #555;
+        }
+
+        footer {
+            margin-top: 50px;
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* MOBILE */
+        @media (max-width: 800px) {
+            .container {
+                display: block;
+            }
+
+            .sidebar,
+            .content {
+                width: 100%;
+            }
+
+            .sidebar {
+                position: relative;
+                height: auto;
+                border-right: none;
+                border-bottom: 1px solid #e5e7eb;
+            }
+
+            .content {
+                padding: 40px 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT PROFILE SECTION -->
+    <aside class="sidebar">
+
+        <div class="photo">
+            Your Photo
+        </div>
+
+        <h1>Chantel Mnyoni</h1>
+
+        <div class="role">
+            Aspiring Data Analyst
+        </div>
+
+        <p>
+            I'm building my career in data analytics by turning business
+            questions into practical insights using SQL, Excel and data
+            visualisation.
+        </p>
+
+        <div class="skills">
+            <h3>Skills</h3>
+
+            <span>SQL</span>
+            <span>Excel</span>
+            <span>Power BI</span>
+            <span>Data Analysis</span>
+            <span>Data Cleaning</span>
+            <span>Business Reporting</span>
+        </div>
+
+        <div class="contact">
+            <h3 style="margin-top: 30px;">Let's connect</h3>
+
+            <a href="#" target="_blank">
+                LinkedIn
+            </a>
+
+            <a href="mailto:your-email@example.com">
+                Email
+            </a>
+
+            <a href="https://github.com/" target="_blank">
+                GitHub
+            </a>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+
+        <h2>My Data Analytics Projects</h2>
+
+        <p class="intro">
+            I enjoy using data to understand what is happening in a business
+            and why. These projects gave me the opportunity to work with
+            real-world style datasets, answer business questions with SQL,
+            build reports in Excel, and turn findings into something that
+            decision-makers can actually use.
+        </p>
+
+
+        <!-- PROJECT 1 -->
+        <section class="project">
+
+            <h3>Retail Sales Analysis</h3>
+
+            <div class="tools">
+                SQL · Excel
+            </div>
+
+            <p>
+                This project focused on analysing retail sales, customers,
+                products, revenue, profit and returns. I used SQL to explore
+                the data and Excel to bring the analysis together into a
+                business-focused dashboard.
+            </p>
+
+            <ul>
+                <li>Analysed revenue, profit and discounted revenue</li>
+                <li>Explored customer and product performance</li>
+                <li>Analysed sales channels and regional performance</li>
+                <li>Investigated product returns</li>
+            </ul>
+
+        </section>
+
+
+        <!-- PROJECT 2 -->
+        <section class="project">
+
+            <h3>Banking Customer & Loans Analysis</h3>
+
+            <div class="tools">
+                SQL · Excel
+            </div>
+
+            <p>
+                This project looked at customer accounts, transactions,
+                loans and loan payments to understand customer activity,
+                account balances and lending performance.
+            </p>
+
+            <ul>
+                <li>Analysed customer and account balances</li>
+                <li>Explored transaction activity across channels</li>
+                <li>Analysed loan values and loan types</li>
+                <li>Created business-focused KPIs and reporting</li>
+            </ul>
+
+        </section>
+
+
+        <!-- PROJECT 3 -->
+        <section class="project">
+
+            <h3>SaaS Customer & Subscription Analysis</h3>
+
+            <div class="tools">
+                SQL · Excel
+            </div>
+
+            <p>
+                This project focused on understanding how customers are
+                acquired, how they use their subscriptions, where revenue
+                is generated, and where the business may be experiencing
+                customer or support challenges.
+            </p>
+
+            <ul>
+                <li>Analysed customer acquisition trends and channels</li>
+                <li>Explored subscription plans and customer usage</li>
+                <li>Analysed revenue, cancellations and failed payments</li>
+                <li>Investigated product features and support activity</li>
+            </ul>
+
+        </section>
+
+
+        <footer>
+            © 2026 Chantel Mnyoni · Data Analytics Portfolio
+        </footer>
+
+    </main>
+
+</div>
+
+</body>
+</html>
